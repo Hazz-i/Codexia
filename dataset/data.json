@@ -1,0 +1,402 @@
+[
+	{
+		"pertanyaan": [
+			"Apa itu machine learning?",
+			"Jelaskan tentang machine learning?",
+			"Bagaimana cara kerja machine learning?"
+		],
+		"jawaban": [
+			"Machine learning adalah cabang dari kecerdasan buatan yang memungkinkan sistem belajar dari data tanpa diprogram secara eksplisit.",
+			"Machine learning adalah metode di mana komputer dapat meningkatkan kinerjanya berdasarkan pengalaman atau data.",
+			"Dengan machine learning, algoritma menggunakan data untuk membuat prediksi atau keputusan tanpa intervensi manusia."
+		],
+		"kategori": "ai"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu deep learning?",
+			"Jelaskan tentang deep learning?",
+			"Apa perbedaan deep learning dan machine learning?"
+		],
+		"jawaban": [
+			"Deep learning adalah subset dari machine learning yang menggunakan jaringan saraf tiruan untuk menganalisis data yang kompleks.",
+			"Deep learning memungkinkan komputer untuk belajar melalui lapisan-lapisan data, meniru cara kerja otak manusia.",
+			"Deep learning berbeda dari machine learning karena fokus pada pemrosesan data dalam jumlah besar dengan jaringan saraf dalam."
+		],
+		"kategori": "ai"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu cloud computing?",
+			"Jelaskan tentang cloud computing?",
+			"Apa manfaat dari cloud computing?"
+		],
+		"jawaban": [
+			"Cloud computing adalah layanan yang memungkinkan pengguna untuk mengakses sumber daya komputasi melalui internet.",
+			"Dengan cloud computing, pengguna dapat menyimpan data, menjalankan aplikasi, dan menggunakan server tanpa harus memiliki perangkat keras fisik.",
+			"Cloud computing memberikan fleksibilitas, skalabilitas, dan efisiensi biaya bagi penggunanya."
+		],
+		"kategori": "cloud"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu SQL?",
+			"Jelaskan tentang SQL?",
+			"Apa fungsi SQL dalam pengelolaan data?"
+		],
+		"jawaban": [
+			"SQL adalah singkatan dari Structured Query Language, yang digunakan untuk mengelola dan memanipulasi database.",
+			"Dengan SQL, pengguna dapat membuat, membaca, memperbarui, dan menghapus data dalam database.",
+			"SQL adalah bahasa yang digunakan untuk berinteraksi dengan database relasional seperti MySQL, PostgreSQL, dan SQLite."
+		],
+		"kategori": "database"
+	},
+	{
+		"pertanyaan": ["Apa itu MongoDB?", "Jelaskan tentang MongoDB?", "Mengapa menggunakan MongoDB?"],
+		"jawaban": [
+			"MongoDB adalah database NoSQL yang menggunakan format dokumen untuk menyimpan data.",
+			"MongoDB dirancang untuk menangani data yang tidak terstruktur dan mendukung skema yang fleksibel.",
+			"MongoDB cocok untuk aplikasi modern yang memerlukan skalabilitas tinggi dan performa cepat."
+		],
+		"kategori": "database"
+	},
+	{
+		"pertanyaan": ["Apa itu Flutter?", "Jelaskan tentang Flutter?", "Flutter digunakan untuk apa?"],
+		"jawaban": [
+			"Flutter adalah framework UI open-source yang dikembangkan oleh Google untuk membuat aplikasi lintas platform.",
+			"Dengan Flutter, developer dapat membuat aplikasi untuk Android, iOS, web, dan desktop menggunakan satu basis kode.",
+			"Flutter dikenal dengan performa tinggi dan kemampuannya untuk menghasilkan tampilan yang konsisten di berbagai platform."
+		],
+		"kategori": "framework"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu Kubernetes?",
+			"Mengapa Kubernetes digunakan?",
+			"Jelaskan kelebihan Kubernetes?"
+		],
+		"jawaban": [
+			"Kubernetes adalah platform open-source untuk mengelola container aplikasi secara otomatis.",
+			"Kubernetes membantu dalam men-deploy, mengatur skala, dan mengelola aplikasi container.",
+			"Dengan Kubernetes, Anda dapat menjalankan aplikasi secara konsisten di berbagai lingkungan."
+		],
+		"kategori": "devops"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu TypeScript?",
+			"Jelaskan tentang TypeScript?",
+			"Apa kelebihan TypeScript dibanding JavaScript?"
+		],
+		"jawaban": [
+			"TypeScript adalah superset dari JavaScript yang menambahkan fitur tipe statis.",
+			"Dengan TypeScript, pengembang dapat menulis kode yang lebih aman dan mudah dipelihara.",
+			"TypeScript membantu mencegah bug dengan memberikan validasi tipe saat pengembangan."
+		],
+		"kategori": "typescript"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu Git?",
+			"Jelaskan tentang Git?",
+			"Mengapa Git penting dalam pengembangan perangkat lunak?"
+		],
+		"jawaban": [
+			"Git adalah sistem kontrol versi yang digunakan untuk melacak perubahan dalam kode sumber selama pengembangan.",
+			"Dengan Git, banyak pengembang dapat bekerja pada proyek yang sama secara bersamaan.",
+			"Git memungkinkan pengembang untuk mengelola versi kode, berkolaborasi, dan mengatasi konflik secara efisien."
+		],
+		"kategori": "tools"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu REST API?",
+			"Jelaskan tentang REST API?",
+			"Apa manfaat REST API dalam aplikasi modern?"
+		],
+		"jawaban": [
+			"REST API adalah antarmuka pemrograman aplikasi yang mematuhi prinsip-prinsip REST (Representational State Transfer).",
+			"REST API memungkinkan aplikasi untuk berkomunikasi melalui protokol HTTP menggunakan metode seperti GET, POST, PUT, dan DELETE.",
+			"Dengan REST API, pengembang dapat membangun aplikasi yang modular dan mudah diintegrasikan."
+		],
+		"kategori": "api"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu blockchain?",
+			"Bagaimana blockchain bekerja?",
+			"Apa manfaat utama dari blockchain?"
+		],
+		"jawaban": [
+			"Blockchain adalah teknologi yang digunakan untuk menyimpan data secara terdesentralisasi melalui rantai blok yang saling terhubung.",
+			"Blockchain bekerja dengan cara mencatat setiap transaksi dalam blok yang dienkripsi dan diverifikasi oleh jaringan.",
+			"Manfaat utama blockchain termasuk transparansi, keamanan data, dan efisiensi dalam transaksi digital."
+		],
+		"kategori": "teknologi"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu IoT?",
+			"Jelaskan tentang IoT?",
+			"Apa manfaat Internet of Things (IoT)?"
+		],
+		"jawaban": [
+			"IoT atau Internet of Things adalah konsep menghubungkan perangkat fisik ke internet untuk berbagi data.",
+			"IoT memungkinkan perangkat seperti sensor, kamera, dan alat elektronik lainnya untuk saling berkomunikasi.",
+			"Manfaat IoT meliputi otomatisasi, efisiensi operasional, dan peningkatan kualitas hidup."
+		],
+		"kategori": "teknologi"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu API?",
+			"Jelaskan tentang API?",
+			"Apa fungsi API dalam pengembangan aplikasi?"
+		],
+		"jawaban": [
+			"API adalah singkatan dari Application Programming Interface, yang memungkinkan aplikasi untuk saling berkomunikasi.",
+			"API menyediakan antarmuka yang memungkinkan pengembang untuk mengakses fitur atau data dari perangkat lunak lain.",
+			"API memudahkan integrasi antara berbagai sistem atau layanan dalam pengembangan aplikasi."
+		],
+		"kategori": "api"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu OOP?",
+			"Jelaskan tentang OOP?",
+			"Apa prinsip dasar dari Object-Oriented Programming (OOP)?"
+		],
+		"jawaban": [
+			"OOP adalah singkatan dari Object-Oriented Programming, paradigma pemrograman berbasis objek.",
+			"Dalam OOP, data dan fungsi dikelompokkan ke dalam objek untuk mempermudah pengelolaan dan penggunaan kode.",
+			"Prinsip dasar OOP meliputi enkapsulasi, pewarisan, polimorfisme, dan abstraksi."
+		],
+		"kategori": "konsep"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu algoritma?",
+			"Jelaskan tentang algoritma?",
+			"Mengapa algoritma penting dalam pemrograman?"
+		],
+		"jawaban": [
+			"Algoritma adalah langkah-langkah logis yang dirancang untuk menyelesaikan masalah tertentu.",
+			"Dalam pemrograman, algoritma digunakan untuk menentukan bagaimana sebuah program bekerja dan memberikan solusi.",
+			"Algoritma penting karena membantu mengoptimalkan performa aplikasi dan efisiensi dalam menyelesaikan tugas."
+		],
+		"kategori": "konsep"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu debugging?",
+			"Mengapa debugging penting?",
+			"Bagaimana cara melakukan debugging dengan efisien?"
+		],
+		"jawaban": [
+			"Debugging adalah proses menemukan dan memperbaiki kesalahan (bug) dalam program.",
+			"Debugging penting untuk memastikan program berjalan sesuai harapan dan menghindari malfungsi.",
+			"Cara efektif melakukan debugging meliputi penggunaan debugger, membaca log error, dan menelusuri kode secara sistematis."
+		],
+		"kategori": "tools"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu IDE?",
+			"Jelaskan tentang IDE?",
+			"Apa manfaat menggunakan IDE dalam pengembangan perangkat lunak?"
+		],
+		"jawaban": [
+			"IDE adalah singkatan dari Integrated Development Environment, perangkat lunak yang menyediakan alat untuk pengembangan aplikasi.",
+			"IDE mengintegrasikan editor kode, debugger, dan alat lainnya dalam satu aplikasi untuk meningkatkan produktivitas.",
+			"Manfaat menggunakan IDE meliputi efisiensi, deteksi kesalahan lebih cepat, dan kemudahan dalam pengelolaan proyek."
+		],
+		"kategori": "tools"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu version control?",
+			"Jelaskan tentang version control?",
+			"Mengapa version control digunakan dalam pengembangan perangkat lunak?"
+		],
+		"jawaban": [
+			"Version control adalah sistem yang digunakan untuk melacak perubahan dalam kode sumber selama pengembangan.",
+			"Dengan version control, pengembang dapat mengelola versi kode, bekerja secara tim, dan mengatasi konflik dengan mudah.",
+			"Version control seperti Git memungkinkan pengembalian kode ke versi sebelumnya jika terjadi kesalahan."
+		],
+		"kategori": "tools"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu CI/CD?",
+			"Jelaskan tentang CI/CD?",
+			"Apa manfaat dari CI/CD dalam pengembangan perangkat lunak?"
+		],
+		"jawaban": [
+			"CI/CD adalah singkatan dari Continuous Integration dan Continuous Deployment/Delivery, yang merupakan metode otomatisasi dalam pengembangan perangkat lunak.",
+			"CI/CD membantu mengintegrasikan dan menguji kode secara berkelanjutan, lalu mendistribusikannya ke lingkungan produksi secara otomatis.",
+			"Manfaat CI/CD meliputi waktu rilis yang lebih cepat, deteksi bug lebih awal, dan peningkatan kualitas perangkat lunak."
+		],
+		"kategori": "devops"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu Docker?",
+			"Jelaskan tentang Docker?",
+			"Apa manfaat Docker dalam pengembangan perangkat lunak?"
+		],
+		"jawaban": [
+			"Docker adalah platform untuk mengembangkan, mengirimkan, dan menjalankan aplikasi dalam container.",
+			"Dengan Docker, aplikasi dapat dijalankan secara konsisten di berbagai lingkungan tanpa masalah kompatibilitas.",
+			"Manfaat Docker meliputi portabilitas, efisiensi sumber daya, dan kemudahan pengelolaan aplikasi."
+		],
+		"kategori": "devops"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu Python?",
+			"Jelaskan tentang Python?",
+			"Mengapa Python populer di kalangan pengembang?"
+		],
+		"jawaban": [
+			"Python adalah bahasa pemrograman tingkat tinggi yang mudah dipahami dan digunakan.",
+			"Python memiliki sintaks yang sederhana, menjadikannya pilihan populer untuk pemula dan pengembang berpengalaman.",
+			"Python populer karena mendukung berbagai aplikasi seperti web development, data analysis, machine learning, dan automasi."
+		],
+		"kategori": "bahasa_pemrograman"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu Java?",
+			"Jelaskan tentang Java?",
+			"Apa kelebihan Java dibandingkan bahasa pemrograman lainnya?"
+		],
+		"jawaban": [
+			"Java adalah bahasa pemrograman berbasis objek yang berjalan di berbagai platform.",
+			"Java dikenal dengan prinsip 'write once, run anywhere,' yang berarti kode dapat dijalankan di berbagai sistem operasi.",
+			"Kelebihan Java meliputi keamanan, portabilitas, dan komunitas yang besar."
+		],
+		"kategori": "bahasa_pemrograman"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu JavaScript?",
+			"Jelaskan tentang JavaScript?",
+			"Apa fungsi utama JavaScript dalam pengembangan web?"
+		],
+		"jawaban": [
+			"JavaScript adalah bahasa pemrograman yang digunakan untuk menambahkan interaktivitas pada halaman web.",
+			"JavaScript memungkinkan pengembang membuat elemen dinamis seperti animasi, form validasi, dan update data secara real-time.",
+			"JavaScript adalah inti dari pengembangan web modern bersama HTML dan CSS."
+		],
+		"kategori": "bahasa_pemrograman"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu C++?",
+			"Jelaskan tentang C++?",
+			"Apa kelebihan C++ dalam pengembangan perangkat lunak?"
+		],
+		"jawaban": [
+			"C++ adalah bahasa pemrograman tingkat menengah yang mendukung pemrograman prosedural dan berbasis objek.",
+			"C++ sering digunakan untuk aplikasi yang membutuhkan performa tinggi seperti game, sistem operasi, dan perangkat lunak embedded.",
+			"Kelebihan C++ meliputi kontrol penuh atas hardware, kecepatan eksekusi, dan dukungan untuk konsep low-level."
+		],
+		"kategori": "bahasa_pemrograman"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu PHP?",
+			"Jelaskan tentang PHP?",
+			"Mengapa PHP masih digunakan dalam pengembangan web?"
+		],
+		"jawaban": [
+			"PHP adalah bahasa pemrograman server-side yang dirancang untuk pengembangan web.",
+			"PHP populer untuk membuat situs web dinamis dan mendukung banyak sistem manajemen konten seperti WordPress.",
+			"PHP masih digunakan karena mudah dipelajari, cepat, dan memiliki dukungan komunitas yang luas."
+		],
+		"kategori": "bahasa_pemrograman"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu Ruby?",
+			"Jelaskan tentang Ruby?",
+			"Apa keunggulan Ruby dalam pengembangan aplikasi?"
+		],
+		"jawaban": [
+			"Ruby adalah bahasa pemrograman dinamis yang fokus pada kemudahan dan produktivitas pengembang.",
+			"Ruby digunakan dalam framework seperti Ruby on Rails untuk pengembangan aplikasi web.",
+			"Keunggulan Ruby meliputi sintaks yang sederhana, produktivitas tinggi, dan ekosistem yang kuat."
+		],
+		"kategori": "bahasa_pemrograman"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu CSS?",
+			"Jelaskan tentang CSS?",
+			"Apa fungsi utama CSS dalam pengembangan web?"
+		],
+		"jawaban": [
+			"CSS adalah singkatan dari Cascading Style Sheets, digunakan untuk mengatur tampilan halaman web.",
+			"Dengan CSS, pengembang dapat mengatur warna, tata letak, dan elemen visual lainnya pada halaman web.",
+			"CSS membantu memisahkan konten (HTML) dari desain, membuat kode lebih terstruktur dan mudah dikelola."
+		],
+		"kategori": "web"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu HTML?",
+			"Jelaskan tentang HTML?",
+			"Apa peran HTML dalam pengembangan web?"
+		],
+		"jawaban": [
+			"HTML adalah singkatan dari HyperText Markup Language, bahasa standar untuk membuat halaman web.",
+			"HTML digunakan untuk mendeskripsikan struktur dan konten halaman web menggunakan elemen seperti paragraf, heading, dan tabel.",
+			"HTML adalah fondasi dari pengembangan web yang bekerja bersama CSS dan JavaScript."
+		],
+		"kategori": "web"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu SQL Injection?",
+			"Jelaskan tentang SQL Injection?",
+			"Bagaimana cara mencegah SQL Injection?"
+		],
+		"jawaban": [
+			"SQL Injection adalah serangan di mana penyerang menyisipkan perintah SQL berbahaya ke dalam input aplikasi.",
+			"SQL Injection dapat digunakan untuk mencuri data, mengubah data, atau bahkan merusak database.",
+			"Cara mencegah SQL Injection meliputi penggunaan prepared statements, validasi input, dan membatasi hak akses database."
+		],
+		"kategori": "keamanan"
+	},
+	{
+		"pertanyaan": ["Apa itu Bash?", "Jelaskan tentang Bash?", "Untuk apa Bash digunakan?"],
+		"jawaban": [
+			"Bash adalah shell dan bahasa skrip yang digunakan di sistem operasi Unix dan Linux.",
+			"Bash memungkinkan pengguna menjalankan perintah sistem, membuat skrip otomatisasi, dan mengelola file.",
+			"Bash sering digunakan oleh administrator sistem untuk tugas-tugas seperti backup, monitoring, dan konfigurasi server."
+		],
+		"kategori": "tools"
+	},
+	{
+		"pertanyaan": ["Apa itu API Key?", "Jelaskan tentang API Key?", "Mengapa API Key digunakan?"],
+		"jawaban": [
+			"API Key adalah kode unik yang digunakan untuk mengautentikasi permintaan ke layanan API.",
+			"API Key memungkinkan layanan untuk memverifikasi identitas pengguna dan mengontrol akses ke sumber daya.",
+			"Penggunaan API Key membantu meningkatkan keamanan dan mencegah penyalahgunaan API."
+		],
+		"kategori": "api"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu Open Source?",
+			"Jelaskan tentang Open Source?",
+			"Apa keuntungan dari perangkat lunak Open Source?"
+		],
+		"jawaban": [
+			"Open Source adalah model pengembangan perangkat lunak di mana kode sumber tersedia untuk umum dan dapat diubah.",
+			"Open Source memungkinkan kolaborasi antara pengembang di seluruh dunia untuk meningkatkan perangkat lunak.",
+			"Keuntungan Open Source meliputi biaya rendah, fleksibilitas, dan keamanan yang lebih baik melalui komunitas yang aktif."
+		],
+		"kategori": "konsep"
+	}
+]
