@@ -398,5 +398,131 @@
 			"Keuntungan Open Source meliputi biaya rendah, fleksibilitas, dan keamanan yang lebih baik melalui komunitas yang aktif."
 		],
 		"kategori": "konsep"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu DevOps?",
+			"Jelaskan tentang DevOps?",
+			"Mengapa DevOps penting dalam pengembangan perangkat lunak?"
+		],
+		"jawaban": [
+			"DevOps adalah metodologi yang mengintegrasikan pengembangan perangkat lunak (Development) dan operasi sistem (Operations) untuk meningkatkan efisiensi.",
+			"DevOps memungkinkan kolaborasi antara tim pengembang dan tim operasional untuk merilis perangkat lunak lebih cepat dan andal.",
+			"DevOps penting karena mempercepat waktu peluncuran produk, meningkatkan kualitas perangkat lunak, dan mengurangi kesalahan dalam proses pengembangan."
+		],
+		"kategori": "tools"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu Kubernetes?",
+			"Jelaskan tentang Kubernetes?",
+			"Apa manfaat Kubernetes dalam manajemen aplikasi?"
+		],
+		"jawaban": [
+			"Kubernetes adalah platform open-source untuk mengelola, mengotomatiskan, dan mengatur container aplikasi.",
+			"Kubernetes mempermudah pengembang dalam menskalakan aplikasi, mengelola container, dan menjaga ketersediaan aplikasi.",
+			"Manfaat Kubernetes meliputi otomatisasi deployment, pemulihan otomatis, dan kemampuan untuk menjalankan aplikasi di berbagai lingkungan cloud."
+		],
+		"kategori": "tools"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu React?",
+			"Jelaskan tentang React?",
+			"Apa kelebihan React dalam pengembangan frontend?"
+		],
+		"jawaban": [
+			"React adalah library JavaScript yang digunakan untuk membangun antarmuka pengguna (UI).",
+			"React menggunakan pendekatan berbasis komponen, memungkinkan pengembang untuk membangun UI yang terstruktur dan dapat digunakan kembali.",
+			"Kelebihan React termasuk Virtual DOM, komunitas besar, dan performa tinggi dalam rendering."
+		],
+		"kategori": "web"
+	},
+	{
+		"pertanyaan": ["Apa itu Git?", "Jelaskan tentang Git?", "Mengapa Git penting bagi pengembang?"],
+		"jawaban": [
+			"Git adalah sistem kontrol versi terdistribusi yang digunakan untuk melacak perubahan dalam kode sumber selama pengembangan perangkat lunak.",
+			"Git memungkinkan pengembang bekerja secara kolaboratif dan menjaga versi kode yang berbeda dalam repositori.",
+			"Git penting karena membantu dalam manajemen versi, kolaborasi tim, dan mempermudah rollback jika terjadi kesalahan."
+		],
+		"kategori": "tools"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu Docker?",
+			"Jelaskan tentang Docker?",
+			"Mengapa Docker digunakan dalam pengembangan perangkat lunak?"
+		],
+		"jawaban": [
+			"Docker adalah platform yang memungkinkan pengembang untuk membuat, mengirim, dan menjalankan aplikasi dalam container.",
+			"Container adalah paket ringan yang berisi aplikasi dan semua dependensinya, memastikan aplikasi berjalan konsisten di berbagai lingkungan.",
+			"Docker digunakan untuk meningkatkan portabilitas, efisiensi pengembangan, dan skalabilitas aplikasi."
+		],
+		"kategori": "tools"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu TensorFlow?",
+			"Jelaskan tentang TensorFlow?",
+			"Apa kelebihan TensorFlow dibandingkan framework lainnya?"
+		],
+		"jawaban": [
+			"TensorFlow adalah framework open-source yang dikembangkan oleh Google untuk machine learning dan deep learning.",
+			"TensorFlow mendukung berbagai jenis model, termasuk jaringan saraf tiruan untuk analisis gambar, suara, dan teks.",
+			"Kelebihan TensorFlow meliputi skalabilitas, komunitas besar, dan dukungan untuk deployment di berbagai platform seperti cloud dan perangkat mobile."
+		],
+		"kategori": "framework"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu Scrum?",
+			"Jelaskan tentang Scrum?",
+			"Apa manfaat menggunakan Scrum dalam pengembangan perangkat lunak?"
+		],
+		"jawaban": [
+			"Scrum adalah metodologi pengembangan perangkat lunak yang berbasis agile, fokus pada kolaborasi, fleksibilitas, dan penyampaian nilai secara iteratif.",
+			"Scrum terdiri dari sprint, daily stand-ups, dan retrospektif untuk memastikan pengembangan terus berjalan dengan baik.",
+			"Manfaat Scrum meliputi kecepatan, transparansi, dan kemampuan untuk mengadaptasi perubahan dalam kebutuhan proyek."
+		],
+		"kategori": "metodologi"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu algoritma?",
+			"Jelaskan tentang algoritma?",
+			"Mengapa algoritma penting dalam pemrograman?"
+		],
+		"jawaban": [
+			"Algoritma adalah langkah-langkah sistematis yang dirancang untuk menyelesaikan masalah atau menyelesaikan tugas.",
+			"Algoritma mendefinisikan cara bagaimana masalah dipecahkan dengan efisien menggunakan kode.",
+			"Pentingnya algoritma terletak pada kemampuan untuk mengoptimalkan performa program dan memastikan solusi yang dapat diskalakan."
+		],
+		"kategori": "konsep"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu OAuth?",
+			"Jelaskan tentang OAuth?",
+			"Apa manfaat OAuth dalam autentikasi pengguna?"
+		],
+		"jawaban": [
+			"OAuth adalah protokol standar untuk otorisasi yang memungkinkan aplikasi untuk mengakses sumber daya atas nama pengguna.",
+			"OAuth sering digunakan untuk menghubungkan aplikasi pihak ketiga dengan akun pengguna seperti Google atau Facebook.",
+			"Manfaat OAuth termasuk keamanan, pengalaman pengguna yang lebih baik, dan kontrol akses yang lebih mudah."
+		],
+		"kategori": "api"
+	},
+	{
+		"pertanyaan": [
+			"Apa itu hashing?",
+			"Jelaskan tentang hashing?",
+			"Apa kegunaan hashing dalam keamanan data?"
+		],
+		"jawaban": [
+			"Hashing adalah proses mengubah input menjadi output tetap menggunakan fungsi hash.",
+			"Hasil hashing bersifat unik dan tidak dapat dibalik, sehingga sering digunakan untuk menyimpan password secara aman.",
+			"Hashing berguna untuk memvalidasi integritas data dan melindungi informasi sensitif dari penyalahgunaan."
+		],
+		"kategori": "keamanan"
 	}
 ]
