@@ -1,7 +1,6 @@
 # Import library
 import streamlit as st
 import pickle
-import os
 from utils import JSONParser, Preprocessor, bot_response
 
 # Load model
@@ -18,16 +17,15 @@ jp.parse(data_path)
 pcsr = Preprocessor()
 
 # Streamlit app
-st.title("Chatbot Interface")
-st.write("Berinteraksi dengan bot kami di bawah ini:")
+st.title("Codexia Chatbot")
 
 # Chat input
-user_input = st.text_input("Anda >>", placeholder="Ketik pesan di sini...")
+user_input = st.text_input("Kamu", placeholder="Ketik pesan di sini...")
 
 # Chat response
 if user_input:
     response, tag = bot_response(user_input, pipeline, jp, pcsr)
-    st.write(f"**Bot >>** {response}")
+    st.write(f"**Bot** :  {response}")
     pcsr.save_to_history(user_input, response)
 
 # Save chat history

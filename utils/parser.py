@@ -14,14 +14,14 @@ class JSONParser:
             self.data = json.load(data_file)
 
         for item in self.data:
-            for pattern in item['pertanyaan']:
+            for pattern in item['question']:
                 self.text.append(pattern)
-                self.intents.append(item['kategori'])
-            for response in item['jawaban']:
-                if item['kategori'] in self.responses.keys():
-                    self.responses[item['kategori']].append(response)
+                self.intents.append(item['tag'])
+            for response in item['answer']:
+                if item['tag'] in self.responses.keys():
+                    self.responses[item['tag']].append(response)
                 else:
-                    self.responses[item['kategori']] = [response]
+                    self.responses[item['tag']] = [response]
 
         self.df = pd.DataFrame({'text_input': self.text,
                                 'intents': self.intents})
@@ -39,3 +39,4 @@ class JSONParser:
         else:
             print(f"[WARNING] No responses found for intent: {intent}")
             return None
+        
